@@ -12,7 +12,7 @@
     ],
     "diagrams": [
       {
-        "title": "samplea",
+        "title": "samplean",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 0,
         "diagramJson": {
@@ -218,7 +218,15 @@
                 }
               ],
               "z": 7,
-              "attrs": {}
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             },
             {
               "type": "tm.Flow",
@@ -244,7 +252,15 @@
                 }
               ],
               "z": 8,
-              "attrs": {}
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
