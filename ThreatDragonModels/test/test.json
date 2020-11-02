@@ -1,10 +1,26 @@
 {
   "summary": {
     "title": "test",
-    "owner": "tomoyamachi"
+    "owner": "tomoyamachi",
+    "description": "high level description"
   },
   "detail": {
-    "contributors": [],
-    "diagrams": []
+    "contributors": [
+      {
+        "name": "abc"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "samplea",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      },
+      {
+        "title": "sampleb",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 1
+      }
+    ]
   }
 }
